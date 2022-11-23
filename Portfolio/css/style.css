@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+/*start header*/
+
+.header
+{
+    width: 100%;
+    height: 900px;
+}
+.navbar
+{
+    width: 100%;
+    height: 10%;
+    display: flex;
+}
+.logo
+{
+    height: 100%;
+    width: 40%;
+}
+.logo h1 
+{
+    margin: 20px 150px;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+}
+.nav
+{
+    width: 60%;
+    height: 100%;
+}
+.nav ul  li a 
+{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li
+{
+    list-style: none;
+    float: left;
+    margin: 30px 100px ;
+    font-size: 20px;
+}
+.about-us
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+}
+.photo
+{
+    width: 50%;
+    height: 100%;
+}
+.photo img
+{
+    width: 50%;
+    height: 50%;
+    margin: 150px 150px;
+    border-radius: 50%;
+    box-shadow: darkgray 5px 10px 10px ;
+}
+.about-me
+{
+    width: 50%;
+    height: 100%;  
+}
+.about-me h1
+{
+ margin: 250px 0 0 60px;
+ font-size: 50px;
+}
+.about-me h2
+{
+ margin: 20px 0 0 60px;
+}
+.about-me .social-media
+{
+  margin: 30px 0 0 60px;
+  width: 100%;
+  height: 50px;
+  font-size: 35px;
+}
+.about-me .social-media .facebook
+{
+    color: darkgray;
+
+}   
+.about-me .social-media .facebook:hover
+{
+    color: blue;
+
+}  
+.about-me .social-media .github
+{
+    color: darkgray;
+    margin-left: 30px;
+
+}   
+
+.about-me .social-media .github:hover
+{
+    color: black;
+
+} 
+.about-me .social-media .wahtsup
+{
+    color: darkgray;
+    margin-left: 30px;
+
+}   
+
+.about-me .social-media .wahtsup:hover
+{
+    color: greenyellow;
+
+}   
+
+/*end header*/
+
+/*start section projects*/
+
+.projets
+{
+    width: 100%;
+    height: 700px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+.projects-text
+{
+    text-align: center;
+    margin-top: 60px;
+    height: 20%;
+}
+
+.projects-text h1
+{
+    font-size: 60px;
+}
+.projects-text h1::first-letter
+{
+    color: cadetblue;
+}
+.content
+{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    justify-content: space-around;
+    overflow: hidden;
+    
+}
+.item
+{
+    width:20% ;
+    height: 60%;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.item img
+{
+    width: 100%;
+    height: 100%;
+    transition: 1s trasform;
+}
+.item img:hover
+{
+    
+   transform: scale(1.1,1.1);
+}
+
+
+
+/*end section projects*/
